@@ -40,14 +40,14 @@ Here are some must haves:
     - alternate loga
     
 
-##### Design Guide 
-###### Colours 
+#### Design Guide 
+#### Colours 
 - #ff45a6 :"name the color"- break it down to on and of colours 
 Back:
 
 
-####### Typography
+ Typography
 
-######## Things I would get rid of
+#### Things I would get rid of
 - the bottom "people who have also viewed this"
 - no video 
