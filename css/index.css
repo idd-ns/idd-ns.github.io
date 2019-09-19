@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* command forward slash */
+
+/* general use */
+
+
+/* background-repeat: no-repeat;}
+	style="background-color: rgba(229, 230, 225, 0.589)" */
+
+
+html{
+    --primary-a:  #6200ee; 
+    --primary-b: #37OOb3;
+    --secondary-a: #03fac6;
+    --secondary-b: #018786;
+    --error: #b00020; 
+
+    --on-primary: #ffffff;
+    --on-secondary: #000000;
+    --on-error: #ffffff;
+
+    --content: georgia, times, 'times new roman',serif;
+    --headings: 'Roboto', helvetica, arial, sans-serif;
+
+    --gutter: 2rem; 
+
+}
+
+
+
+
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background);
+    color: var(--on-background);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+h1 {
+    border-bottom: 0.125rem solid black;
+    font: 500 normal 2.5rem 'Roboto, helvetica, arial';
+}
+
+.divider {
+    border-bottom: 0.5rem solid black;
+}
+
+.btn {
+    background-color: var(--primary-a);
+    color: var(--on-primary);
+    font-size: 1rem;
+    padding: 1em 2em 1em 2em; 
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0rem var(--primary-b);
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--primary-b);
+    box-shadow: 0rem 0rem 0rem var(--primary-b);
+    cursor: pointer; 
+
+
 }
