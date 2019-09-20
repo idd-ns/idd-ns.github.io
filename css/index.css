@@ -29,15 +29,14 @@ html{
 
   .topphoto {
     width: 100%;
-    height: 600px;
-    text-align: center;
+    height: 200px;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; 
     padding-top: 60px;
   }
 
 
-  header .profile-image {
+header .profile-image {
     margin-top: 50px;
     width: 150px;
     height: 150px;
@@ -46,7 +45,7 @@ html{
     transition: all .5s;
   }
 
-  header .profile-image:hover {
+header .profile-image:hover {
     transform: scale(1.2) rotate(5deg);
   }
 
@@ -74,7 +73,7 @@ a:hover {
     color: #6633ff;
   }
 
-  .main-nav {
+.main-nav {
     width: 100%;
     background: rgba(129, 124, 124, 0.247);
     min-height: 30px;
@@ -82,7 +81,7 @@ a:hover {
     position: fixed;
     text-align: center;
   }
-  .nav {
+.nav {
     display: flex;
     justify-content: space-around;
     font-weight: 700;
@@ -91,7 +90,7 @@ a:hover {
     padding: 0;
   }
 
-  .nav .name {
+.nav .name {
     display: block;
     margin-right: auto;
     color: white;
@@ -161,8 +160,15 @@ h1 {
     border-color: #75b6ec ;
   }
 
+.socialmedia {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
   footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+
   }
