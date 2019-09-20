@@ -27,7 +27,26 @@ html{
 
 }
 
+header {
+    text-align: center;
+    background: url('images/portland.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
 
+  header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
 
 
 body {
@@ -61,6 +80,20 @@ a:hover {
     position: fixed;
     text-align: center;
   }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
 
 h1 {
     border-bottom: 0.125rem solid black;
@@ -85,6 +118,49 @@ h1 {
     background-color: var(--primary-b);
     box-shadow: 0rem 0rem 0rem var(--primary-b);
     cursor: pointer; 
-
-
 }
+
+.description {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  .description:hover {
+    border-color: #75b6ec;
+  }
+  
+  .students {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  .students:hover {
+    border-color: #75b6ec ;
+  }
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  .card:hover {
+    border-color: #75b6ec ;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
