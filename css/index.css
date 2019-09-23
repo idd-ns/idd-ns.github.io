@@ -179,11 +179,35 @@ h1 {
     border-color: #75b6ec ;
   }
 
-.socialmedia {
-    width: 10%;
-    height: 10px;
-    border-radius: 10%;
-    border: 3px solid white;
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 1000px 0 50px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  padding-top: 650px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.socialtwitter{
+  
+
+  
+}
+
 }
   footer {
     font-size: 1.3em;
@@ -191,3 +215,4 @@ h1 {
     margin: 40px auto;
 
   }
+
