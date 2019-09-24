@@ -201,6 +201,15 @@ main{
     max-width: 500px;
    
   }
+
+  .studentsoncouch{
+    position: relative;
+    width:200%;
+    left: 300px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+  
+  }
   
   .students {
    
@@ -256,6 +265,7 @@ footer {
   top:300px;
   right: 200px;
   height:20px;
+
 }
 .sociallinkedin{
   position: relative;
