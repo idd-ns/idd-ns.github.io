@@ -110,7 +110,7 @@ a:hover {
     background: rgb(194, 193, 191);
     min-height: 30px;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     text-align: center;
   
   }
