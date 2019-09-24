@@ -263,23 +263,23 @@ footer {
  .socialtwitter{
   position: relative;
   top:405px;
-  right: 100px;
-  height:20px;
+  right: 110px;
+
 }
 
 .socialinstagram{
   position: relative;
-  top:335px;
-  left:10px;
+  top:330px;
+  left:12px;
   right: 0px;
-  height:20px;
+ ]
 
 }
 .sociallinkedin{
   position: relative;
-  top:300px;
-  right: 200px;
-  height:20px;
+  top:332px;
+  left: 40px;
+  
 }
 
 
