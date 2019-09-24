@@ -10,7 +10,7 @@
 
 
 html{
-    --primary-a:  #6200ee; 
+    --primary-a:  #201f22; 
     --primary-b: #37OOb3;
     --secondary-a: #03fac6;
     --secondary-b: #018786;
@@ -26,10 +26,19 @@ html{
     --gutter: 2rem; 
 
 }
+
+
+
+
+.title{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
   .yellow { 
-    position: absolute;
+    position: ;
     height: 600px;
-    width: 120%;
+    width: 100%;
     padding-top: 60px;
     opacity: .7;
     }
@@ -42,7 +51,7 @@ html{
 
 header .profile-image {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 0px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -80,6 +89,7 @@ body {
 
 
 
+
 body {
     margin: 0;
     padding: 0;
@@ -95,11 +105,12 @@ a:hover {
 
 .main-nav {
     width: 100%;
-    background: rgba(129, 124, 124, 0.247);
+    background: rgb(194, 193, 191);
     min-height: 30px;
     padding: 10px;
     position: fixed;
     text-align: center;
+  
   }
 .nav {
     display: flex;
@@ -108,6 +119,7 @@ a:hover {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+  
   }
 
 .nav .name {
@@ -116,6 +128,19 @@ a:hover {
     color: white;
   }
 
+  button {
+    background-color: rgb(190, 128, 170); /* Green */
+    border: line;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+  }
 h1 {
     border-bottom: 0.125rem solid black;
     font: 500 normal 2.5rem 'Roboto, helvetica, arial';
@@ -193,18 +218,8 @@ footer .copyright {
   font-size: .75em;
 }
 
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-footer ul li {
-  display: inline-block;
-}
 
-.socialtwitter{
-  background-size: 10px 10px;
 
   
 }
