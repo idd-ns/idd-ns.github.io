@@ -179,6 +179,8 @@ main{
   padding-top: 500px;
 }
 .description {
+    position: relative;
+    left: 70px;
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -190,8 +192,20 @@ main{
   .description:hover {
     border-color: #75b6ec;
   }
+
+  .interactiondesignphoto{
+    position: relative;
+    left: 70px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+   
+  }
   
   .students {
+   
+    position: relative;
+    left: 70px;
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -205,9 +219,11 @@ main{
   }
 
 .card {
+    position: relative;
+    left: 70px;
     margin: 30px;
     padding: 20px 40px 40px;
-    max-width: 500px;
+    max-width: 400px;
     text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
@@ -223,10 +239,36 @@ footer {
   padding: 1000px 0 50px 20px;
 }
 
+.socialmedia{
+  max-width: 100%;
+  height:150px;
+
+}
+ .socialtwitter{
+  position: relative;
+  top:300px;
+  right: 200px;
+  height:20px;
+}
+
+.socialinstagram{
+  position: relative;
+  top:300px;
+  right: 200px;
+  height:20px;
+}
+.sociallinkedin{
+  position: relative;
+  top:300px;
+  right: 200px;
+  height:20px;
+}
+
+
 footer .copyright {
   top: -8px;
   margin-right: 20px;
-  padding-top: 650px;
+  padding-top: 0px;
   font-size: .75em;
 }
 
