@@ -199,7 +199,6 @@ main{
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-   
   }
 
   .studentsoncouch{
@@ -208,7 +207,6 @@ main{
     left: 300px;
     margin: 30px;
     padding: 20px 40px 40px;
-  
   }
   
   .students {
@@ -222,6 +220,15 @@ main{
     background: #fff;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
+  }
+
+  .studentstogetherphoto{
+    position: relative;
+    width:200%;
+    left: 300px;
+    margin: 30px;
+    padding: 20px 40px 40px;
+  
   }
   .students:hover {
     border-color: #75b6ec ;
