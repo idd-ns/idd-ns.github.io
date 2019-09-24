@@ -92,7 +92,6 @@ body {
 
 
 
-
 body {
     margin: 0;
     padding: 0;
@@ -171,6 +170,9 @@ h1 {
     cursor: pointer; 
 }
 
+main{
+  padding-top: 500px;
+}
 .description {
     margin: 30px;
     padding: 20px 40px 40px;
