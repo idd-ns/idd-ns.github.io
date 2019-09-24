@@ -36,7 +36,10 @@ html{
 }
 
   .yellow { 
-    position: ;
+    position: absolute;
+    top: 80x;
+    right: 60px;
+    left:0px;
     height: 600px;
     width: 100%;
     padding-top: 60px;
@@ -51,6 +54,7 @@ html{
 
 header .profile-image {
     position: absolute;
+    top:275px;
     margin-top: 0px;
     width: 250px;
     height: 250px;
@@ -73,7 +77,6 @@ body {
     font-family: helvetica, arial, sans-serif;
 
 }
-
 
 .column {
   float: right;
@@ -132,14 +135,16 @@ a:hover {
     background-color: rgb(190, 128, 170); /* Green */
     border: line;
     color: white;
-    padding: 15px 32px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
+    top:450px;
+    left:25px;
   }
 h1 {
     border-bottom: 0.125rem solid black;
