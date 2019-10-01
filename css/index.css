@@ -161,9 +161,7 @@ h1 {
     cursor: pointer; 
 }
 
-main{
-  padding-top: 500px;
-}
+ 
 .description {
   
     left: 70px;
@@ -182,13 +180,13 @@ main{
   .interactiondesignphoto{
     left: 70px;
     margin: 30px;
-    max-width: 500px;
+    width: 90%;
   }
 
   .studentsoncouch{
-    width:200%;
+    width:90%;
     left: 300px;
-    margin: 30px;
+    margin:30px;
   }
   
   .students {
@@ -203,7 +201,7 @@ main{
   }
 
   .studentstogetherphoto{
-    width:200%;
+    width:110%;
     left: 300px;
     padding: 20px 40px 40px;
   
@@ -228,8 +226,6 @@ main{
 
 footer {
   width: 100%;
-  min-height: 30px;
-  padding: 1000px 0 50px 20px;
 }
 
 .socialmedia{
@@ -239,14 +235,12 @@ footer {
 }
  .socialtwitter{
   position: relative;
-  top:435px;
   right: 110px;
 
 }
 
 .socialinstagram{
   position: relative;
-  top:350px;
   left:12px;
   right: 0px;
  ]
@@ -254,28 +248,16 @@ footer {
 }
 .sociallinkedin{
   position: relative;
-  top:350px;
-  left: 40px;
-  
+  left: 40px; 
 }
-
-
 footer .copyright {
   top: -8px;
   margin-right: 20px;
-  padding-top: 350px;
   font-size: .75em;
 }
 
 .twitterlogo .socialtwitter{
-  height:10px;
-  
-  
-}
-
-
-
-  
+  height:10px; 
 }
 
 }
@@ -283,6 +265,5 @@ footer .copyright {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-
-  }
+}
 
