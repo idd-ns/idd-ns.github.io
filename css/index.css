@@ -235,7 +235,8 @@ footer {
 }
  .socialtwitter{
   position: relative;
-  right: 110px;
+  right: 40px;
+  top: 20px;
 
 }
 
@@ -254,10 +255,6 @@ footer .copyright {
   top: -8px;
   margin-right: 20px;
   font-size: .75em;
-}
-
-.twitterlogo .socialtwitter{
-  height:10px; 
 }
 
 }
