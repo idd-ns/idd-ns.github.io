@@ -36,11 +36,9 @@ html{
 }
 
   .yellow { 
-height: 500px;
+  height: 500px;
   width: 130%;
-  
-    padding-top: 60px;
-    opacity: .7;
+  padding-top: auto;
     }
 
 
@@ -51,7 +49,8 @@ height: 500px;
 
 header .profile-image {
     position: absolute;
-    top:300px;
+    top:420px;
+    right: 15px;
     margin-top: 0px;
     width: 250px;
     height: 250px;
@@ -168,7 +167,7 @@ main{
 .description {
   
     left: 70px;
-    margin: 10px;
+    margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
     text-align: left;
@@ -181,24 +180,18 @@ main{
   }
 
   .interactiondesignphoto{
-    position: relative;
     left: 70px;
     margin: 30px;
-    padding: 20px 40px 40px;
     max-width: 500px;
   }
 
   .studentsoncouch{
-    position: relative;
     width:200%;
     left: 300px;
     margin: 30px;
-    padding: 20px 40px 40px;
   }
   
   .students {
-   
-    position: relative;
     left: 70px;
     margin: 30px;
     padding: 20px 40px 40px;
@@ -210,10 +203,8 @@ main{
   }
 
   .studentstogetherphoto{
-    position: relative;
     width:200%;
     left: 300px;
-    margin: 30px;
     padding: 20px 40px 40px;
   
   }
@@ -221,18 +212,17 @@ main{
     border-color: #75b6ec ;
   }
 
-.card {
-    position: relative;
+.course {
     left: 70px;
     margin: 30px;
     padding: 20px 40px 40px;
-    max-width: 400px;
+    max-width: 300px;
     text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
   }
-  .card:hover {
+  .course:hover {
     border-color: #75b6ec ;
   }
 
